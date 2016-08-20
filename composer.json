@@ -1,0 +1,19 @@
+{
+    "name": "neos/media-exporter",
+    "description": "Neos Media package export / import CLI commands",
+    "type": "neos-package",
+    "require": {
+        "php": ">=7.0.0",
+        "typo3/media": "^2.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neos\\Media\\Exporter\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Neos.Media.Exporter"
+        }
+    }
+}
