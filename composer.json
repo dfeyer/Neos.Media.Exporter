@@ -2,6 +2,7 @@
     "name": "neos/media-exporter",
     "description": "Neos Media package export / import CLI commands",
     "type": "neos-package",
+    "license": "MIT",
     "require": {
         "php": ">=7.0.0",
         "typo3/media": "^2.3.0"
